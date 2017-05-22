@@ -1,0 +1,34 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #0e64cd;
+    background: -moz-radial-gradient(center, ellipse cover, rgba(14,100,204,1) 0%, rgba(8,55,112,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(14,100,204,1)), color-stop(100%, rgba(8,55,112,1))); /* safari4+,chrome */
+    background:-webkit-radial-gradient(center, ellipse cover, rgba(14,100,204,1) 0%, rgba(8,55,112,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-radial-gradient(center, ellipse cover, rgba(14,100,204,1) 0%, rgba(8,55,112,1) 100%); /* opera 11.10+ */
+    background: -ms-radial-gradient(center, ellipse cover, rgba(14,100,204,1) 0%, rgba(8,55,112,1) 100%); /* ie10+ */
+    background:radial-gradient(ellipse at center, rgba(14,100,204,1) 0%, rgba(8,55,112,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0E64CC', endColorstr='#083770',GradientType=1 ); /* ie6-9 */
+}
+
+.inputField {
+    color: #cad0d8;
+    font-size: 19px;
+    border: 5px solid #4f8fe3;
+}
+
+.preview {
+    color: #cad0d8;
+    font-family: "Lucida Console", monospace;
+    background: black;
+    font-size: 19px;
+    overflow: wrap;
+}
+
+.inputField, .preview {
+    background: transparent;
+    box-shadow: none;
+    padding: 10px;
+}

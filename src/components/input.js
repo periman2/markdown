@@ -14,7 +14,7 @@ class MarkDownInput extends React.Component {
     render() {
         return (
             <div style={compStyle}>
-                <textarea style={inputStyle} onChange={this.props.onInputChange}></textarea>
+                <textarea className="inputField" style={inputStyle} onChange={this.props.onInputChange}></textarea>
             </div>
         );
     }

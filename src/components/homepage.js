@@ -23,8 +23,8 @@ class HomePage extends React.Component {
     render() {
         return (
             <div style={homePageStyle}>
-                <Input onInputChange={this.handleInputChange} />
-                <Previewer outputValue={this.state.inputValue}/>
+                <Input  onInputChange={this.handleInputChange} />
+                <Previewer  outputValue={this.state.inputValue}/>
             </div>
         )
     }
