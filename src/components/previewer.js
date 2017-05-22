@@ -14,9 +14,10 @@ var pStyle = {
 
 class Marked extends React.Component {
     render() {
+        console.log(typeof marked(this.props.outputValue))
         return (
             <div style={previewerStyle}>
-                <p style={pStyle}>{marked(this.props.outputValue)}</p>
+                <div style={pStyle} dangerouslySetInnerHTML={{__html: marked(this.props.outputValue)}}></div>
             </div>
         );
     };
