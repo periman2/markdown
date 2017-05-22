@@ -1,12 +1,12 @@
 var React = require('react');
 var ReactDom = require("react-dom");
 var Header = require("./components/header");
-var Input = require("./components/input")
+var HomePage = require("./components/homepage")
 
 ReactDom.render(
     <div>
         <Header />
-        <Input />
+        <HomePage />
     </div>,
     document.getElementById("root")
 );

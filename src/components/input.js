@@ -1,17 +1,18 @@
 var React = require("react");
 
 var inputStyle = {
-    textAlign: "center",
     width: "30%",
-    height: "400px"
+    minHeight: "400px",
+    textAlign: "left"
 }
 
 class MarkDownInput extends React.Component {
+
     render() {
         return (
-            <form >
-                <input style={inputStyle} type='text' />
-            </form>
+            <div style={{textAlign: 'center'}}>
+                <textarea style={inputStyle} onChange={this.props.onInputChange}></textarea>
+            </div>
         );
     }
 }
